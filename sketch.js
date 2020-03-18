@@ -2,15 +2,15 @@ var sun,p1,p2,p3,p4,p5,p6,p7,p8;
 var angle,anglespeed;
 
 function preload(){
-  Sun = loadImage("images/sun.png");
-  mercury = loadImage("images/mercury.png");
-  venus = loadImage("images/venus.png");
-  earth = loadImage("images/earth.png");
-  mars = loadImage("images/mars.png");
-  jupiter = loadImage("images/jupiter.png");
-  saturn = loadImage("images/saturn.png");
-  uranus = loadImage("images/uranus.png");
-  neptune = loadImage("images/neptune.png");
+  Sun = loadImage("sun.png");
+  mercury = loadImage("mercury.png");
+  venus = loadImage("venus.png");
+  earth = loadImage("earth.png");
+  mars = loadImage("mars.png");
+  jupiter = loadImage("jupiter.png");
+  saturn = loadImage("saturn.png");
+  uranus = loadImage("uranus.png");
+  neptune = loadImage("neptune.png");
 }
 function setup() {
   createCanvas(800,400);
